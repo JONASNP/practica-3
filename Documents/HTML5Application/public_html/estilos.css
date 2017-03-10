@@ -44,6 +44,16 @@ a:hover{
 }
 a{
     text-decoration: none;
+    
+}
+A:links{
+    color:  
+}
+a:visited {
+    color:  
+}
+a:active{
+    color:     
 }
 form{
     /*centrando el formulario y poniendo borde*/
@@ -51,9 +61,32 @@ form{
     width: 600px;
     padding: 1em;
     border: 1px solid #000;
-    border-radius: 5px;
+    border-radius: 1em;
+    background: white;
     
 }
 form div{
     margin-top: 1em;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input,textArea{
+    font: 1em arial;
+    width: 300px;
+}
+input:focus, textArea:focus{
+    border-color: #04B486;
+}
+textArea{
+  vertical-align: top;
+}
+h1{
+   text-align: center;
+  
+}
+#fondo{
+   background: #04B486;
 }
