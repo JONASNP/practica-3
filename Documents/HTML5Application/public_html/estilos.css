@@ -7,14 +7,16 @@ and open the template in the editor.
     Created on : Mar 3, 2017, 6:24:42 PM
     Author     : 00140161
 */
-#cabecera{
+#cabecera{/*Aplicando tipo,alineacion y tamaño de letra a la cabecera*/
     font-family: forte;
     font-size: 40px;
     text-align: center;
     
 }
 
-ul li{
+ul li{/*Aplicando color de fondo,alineacion de la lista,
+    color de fondo, quitando estilo por defecto de links, agregando radio
+      al borde, agregando tamano o dimencion a la lista no numerada*/
     list-style-type: none;
     background: #04B486;
     display: inline;
@@ -23,30 +25,30 @@ ul li{
     padding: 10px;
     border-radius: 7px;
 }
-#menu{
+#menu{/*Alinieando el menu hacia el centro al menu*/
     text-align: center;
    
 }
-#cuerpo{
+#cuerpo{/*Alineando el texto hacia el centro, asignando tipo de letra y tamano
+    al cuerpo*/
     text-align: center;
     font-family: magneto;
     font-size: 26px;
 }
-#pie{
+#pie{/*agregando color de fondo, alineando el texto al centro al pie*/
     background: #04B486;
     text-align: center;
     font-family:arial;
 }
-a:hover{
+a:hover/* */{
     color:black;
     font-size: 24px;
    
 }
 a{
     text-decoration: none;
-    
 }
-A:links{
+a:links{
     color:  
 }
 a:visited {
@@ -56,7 +58,7 @@ a:active{
     color:     
 }
 form{
-    /*centrando el formulario y poniendo borde*/
+    /*centrando el formulario y poniendo borde al formulario*/
     margin: 0 auto;
     width: 600px;
     padding: 1em;
@@ -66,9 +68,10 @@ form{
     
 }
 form div{
+    /*dandole espacio a los labels*/
     margin-top: 1em;
 }
-label{
+label{/*alineando los labels, dando tamano al texto y el ancho*/
     display: inline-block;
     width: 100px;
     text-align: right;
